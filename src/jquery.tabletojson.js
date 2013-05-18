@@ -54,7 +54,7 @@
     var construct = function(table, headings) {
       var result = [];
       table.children("tbody,*").children("tr").each(function(rowIndex, row) {
-        if( rowIndex !== 0 ) {
+        if( rowIndex !== 0 || opts.tabelHeader.length !== 0 ) {
           if( $(row).is(":visible") || !opts.ignoreHiddenRows ) {
             result[result.length] = arraysToHash(headings, rowValues(row));
           }
