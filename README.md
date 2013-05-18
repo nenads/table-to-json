@@ -1,11 +1,12 @@
 # Table To JSON
 
-[![Build Status](https://travis-ci.org/lightswitch05/table-to-json.png?branch=master)](https://travis-ci.org/lightswitch05/table-to-json)
+[![Build Status](https://travis-ci.org/nenads/table-to-json.png?branch=master)](https://travis-ci.org/nenads/table-to-json)
 
 jQuery plugin to serialize HTML tables into javascript objects.
 
 ## Demo
-- http://jsfiddle.net/Crw2C/
+- http://jsfiddle.net/HBnmZ/1/
+- http://jsfiddle.net/Crw2C/ (Author original)
 
 ## Features
 - Suport to define headers with tabelHeader: [] nice to use with d3.js
