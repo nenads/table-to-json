@@ -5,7 +5,8 @@
     var defaults = {
       ignoreColumns: [],
       onlyColumns: null,
-      ignoreHiddenRows: true
+      ignoreHiddenRows: true,
+      tabelHeader: []
     };
     opts = $.extend(defaults, opts);
 
@@ -47,7 +48,7 @@
 
     var getHeadings = function(table) {
       var firstRow = table.find("tr:first").first();
-      return rowValues(firstRow);
+      return (opts.tabelHeader.length === 0)? rowValues(firstRow): opts.tabelHeader;
     };
 
     var construct = function(table, headings) {

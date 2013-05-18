@@ -8,6 +8,7 @@ jQuery plugin to serialize HTML tables into javascript objects.
 - http://jsfiddle.net/Crw2C/
 
 ## Features
+- Suport to define headers with tabelHeader: [] nice to use with d3.js
 - Automatically finds column headings
   - Override found column headings by using `data-override="overridden column name"`
   - Always uses first row as column headings regardless of `th` and `td` tags
